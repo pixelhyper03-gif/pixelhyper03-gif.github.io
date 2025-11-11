@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    
+}
+@keyframes myAnimation {
+  0%   {color: #020024;}
+  25%  {color: #5e5e5e;}
+  50%  {color: #acacac;}
+  100% {color: #ffffff;}
+}
+.main{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.479);
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    width: 100%;
+    height: 150px;
+    border-bottom: 2px solid black;
+}
+.name{
+    padding-left: 40px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    
+}
+.myself{
+    padding-left: 40px;
+    padding-top: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
+}
+.Clases{
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+}
+.li1{
+        /* padding-left: 40px;
+    padding-top: 10px; */
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+}
+.p2{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #ffffff;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+}
+.h2{
+    padding-left: 40px;
+    padding-top: 20px;
+    color: rgb(2, 162, 255);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 60, 255), 0 0 5px rgb(139, 130, 0);
+}
+.p1{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+}
+.p12{
+    font-size: 20px;
+    color: #ffffff;
+    animation-name: myAnimation;
+    animation-duration: 10s;  
+}
+.movies{
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+}
+.a1{
+    font-size: 20px;
+    padding-left: 10px;
+    color: rgb(2, 162, 255);
+}
+.d2{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.big{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.moods{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.facts{
+    width: 50%;
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.d3{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
