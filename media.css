@@ -1,0 +1,163 @@
+@media (max-width: 320px) {
+
+    .nav-bar {
+        height: auto;
+        padding-top: 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .name {
+        padding-left: 0;
+        font-size: 24px;
+    }
+
+    .myself {
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    .li1,
+    .p2,
+    .p1,
+    .p12 {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .h2 {
+        padding-left: 10px;
+        font-size: 18px;
+    }
+
+    .big {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .moods,
+    .facts {
+        width: 95%;
+        border-left: none;
+        border-right: none;
+    }
+
+    .img1 {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* --- 375px --- */
+@media (max-width: 375px) {
+
+    .nav-bar {
+        padding-top: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .name {
+        padding-left: 0;
+        font-size: 26px;
+    }
+
+    .myself {
+        padding-left: 0;
+        font-size: 15px;
+    }
+
+    .li1,
+    .p2,
+    .p1,
+    .p12 {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+
+    .h2 {
+        padding-left: 20px;
+        font-size: 19px;
+    }
+
+    .big {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .moods,
+    .facts {
+        width: 92%;
+        border-left: none;
+        border-right: none;
+    }
+
+    .img1 {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+/* --- 420px --- */
+@media (max-width: 420px) {
+
+    .nav-bar {
+        height: auto;
+        padding-top: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .name {
+        padding-left: 0;
+        font-size: 28px;
+    }
+
+    .myself {
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+    .li1,
+    .p2,
+    .p1,
+    .p12 {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .h2 {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .Clases,
+    .movies {
+        padding-bottom: 10px;
+    }
+
+    .big {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .moods,
+    .facts {
+        width: 90%;
+        border-left: none;
+        border-right: none;
+    }
+
+    .d3 {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    .img1 {
+        width: 150px;
+        height: 150px;
+    }
+}
